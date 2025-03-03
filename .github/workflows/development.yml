@@ -54,7 +54,7 @@ jobs:
           name: jre17-ios-aarch64
 
       - name: Get JRE21
-        uses: dawidd6/action-download-atifact@v2
+        uses: dawidd6/action-download-artifact@v2
         with:
           github_token: ${{secrets.GITHUB_TOKEN}}
           workflow: build.yml
