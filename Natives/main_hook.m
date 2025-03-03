@@ -2,7 +2,7 @@
 #import "SurfaceViewController.h"
 #import "utils.h"
 
-#include "external/fishhook/fishhook.h"
+#include "external/includes/fishhook/fishhook.h"
 
 void (*orig_abort)();
 static void* (*orig_dlopen)(const char* path, int mode);
