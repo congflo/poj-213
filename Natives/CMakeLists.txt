@@ -12,11 +12,11 @@ endif()
 
 include_directories(
   "resources/Frameworks/Alderis.framework/Headers"
-  "external/AFNetworking/AFNetworking"
-  "external/AFNetworking/UIKit+AFNetworking"
-  "external/DBNumberedSlider/Classes"
-  "external/TOInsetGroupedTableView/TOInsetGroupedTableView"
-  "external/fishhook"
+  "external/include/AFNetworking/AFNetworking"
+  "external/include/AFNetworking/UIKit+AFNetworking"
+  "external/include/DBNumberedSlider/Classes"
+  "external/include/TOInsetGroupedTableView/TOInsetGroupedTableView"
+  "external/include/fishhook"
   "external/mesa"
   "external/AltKit"
   "external/Apple"
