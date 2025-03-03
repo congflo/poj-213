@@ -62,25 +62,25 @@ jobs:
           gmake -j$(sysctl -n hw.ncpu) ipa
 
       - name: Upload regular artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: net.kdt.pojavlauncher.development_iphoneos-arm.deb
           path: artifacts/net.kdt.pojavlauncher.*_iphoneos-arm.deb
 
       - name: Upload rootless artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: net.kdt.pojavlauncher.development-rootless_iphoneos-arm.deb
           path: artifacts/net.kdt.pojavlauncher.*_iphoneos-arm64.deb
 
       - name: Upload IPA artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: net.kdt.pojavlauncher.ipa
           path: artifacts/net.kdt.pojavlauncher-*.ipa
 
       - name: Upload PojavLauncher.dSYM
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: PojavLauncher.dSYM
           path: artifacts/PojavLauncher.dSYM
