@@ -1,0 +1,201 @@
+/* 
+  Localizable.strings
+  StringLocalization
+*/
+
+"game.menu.force_close" = "Примусове закриття";
+"game.menu.confirm.force_close" = "Ви впевнені, що ви хочете примусово закрити його?";
+"game.menu.log_output" = "Журнал";
+"game.menu.custom_controls" = "Користувацьке керування";
+
+"game.note.airplay" = "Minecraft показується в дзеркальному дисплеї AirPlay";
+
+"game.title.exit_code" = "Гра завершилась з кодом %d";
+
+// The options button at the top-right corner on iOS 12
+"Options" = "Опції";
+
+// The play button
+"Play" = "Грати";
+
+// Version categories
+"Installed" = "Встановлено";
+"Snapshot" = "Снапшоти";
+"Releases" = "Релізи";
+"Old-beta" = "Старі бета";
+"Old-alpha" = "Старі альфа";
+
+// Custom controls
+"Copy" = "Копія";
+"Edit" = "Редагувати";
+"Move" = "Рухати";
+"Remove" = "Вилучити";
+"Resize" = "Зміна розміру";
+
+"custom_controls.button_edit.name" = "Ім'я";
+"custom_controls.button_edit.size" = "Розмір";
+"custom_controls.button_edit.mapping" = "Кнопки";
+"custom_controls.button_edit.orientation" = "Орієнтація";
+"custom_controls.button_edit.toggleable" = "Перемикач";
+"custom_controls.button_edit.mouse_pass" = "Перехід миші";
+"custom_controls.button_edit.swipeable" = "Перегортаємий";
+"custom_controls.button_edit.bg_color" = "Колір фону";
+"custom_controls.button_edit.stroke_width" = "Товщина штриха (%)";
+"custom_controls.button_edit.stroke_color" = "Колір контуру";
+"custom_controls.button_edit.corner_radius" = "Радіус округлення (%)";
+"custom_controls.button_edit.opacity" = "Невиразність (%)";
+
+"custom_controls.button_menu.add_subbutton" = "Додати під-кнопку";
+"custom_controls.control_menu.discard_changes" = "Відхилити зміни";
+"custom_controls.control_menu.exit" = "Вийти";
+"custom_controls.control_menu.exit.warn" = "Ви збираєтесь вийти без збережень.";
+"custom_controls.control_menu.save" = "Зберегти";
+"custom_controls.control_menu.save.error.default" = "Ім'я контролера не буде \"за замовчуванням\" бо воно буде перезаписано.";
+"custom_controls.control_menu.save.error.json" = "Помилка JSON";
+"custom_controls.control_menu.save.error.write" = "Помилка збереження";
+"custom_controls.control_menu.load" = "Завантаження";
+"custom_controls.control_menu.make_default" = "Зробити типовим";
+"custom_controls.control_menu.safe_area" = "Безпечна зона";
+"custom_controls.control_menu.add_button" = "Додати кнопку";
+"custom_controls.control_menu.add_drawer" = "Додати елемент";
+"custom_controls.hint" = "Утримуйте будь-де для додаткових опцій";
+
+"init.migrateDir" = "Каталог даних PojavLauncher тепер у %@. Усі ваші наявні дані було переміщено в нове місце.";
+
+"launcher.menu.custom_controls" = "Користувацьке керування";
+"launcher.menu.install_jar" = "Встановити .jar";
+
+"launcher.wait_jit.title" = "Чекаю на JIT";
+"launcher.wait_jit.message" = "PojavLauncher покладається на компіляцію Just-in-time для Java задля роботи з максимальною швидкістю.";
+
+"login.error.username.outOfRange" = "Ім'я користувача повинно бути не менше 3 символів і не більше 16";
+
+"login.alert.field.username" = "Ім'я користувача";
+
+"login.jit.checking" = "Перевірка JIT";
+"login.jit.enabled" = "JIT було увімкнено";
+"login.jit.fail.JitStreamer" = "Помилка JitStreamer: %@";
+"login.jit.found.JitStreamer" = "Знайдено JitStreamer, увімкнення JIT";
+"login.jit.start.AltKit" = "Спроба використовувати AltJIT";
+"login.jit.fail.AltKit" = "Помилка AltKit: %@";
+
+// Login buttons
+"login.menu.sendlogs" = "Надіслати ваші звіти";
+
+"login.option.add" = "Додати обл. запис";
+"login.option.select" = "Виберіть обліковий запис";
+"login.option.microsoft" = "Обліковий запис Microsoft";
+"login.option.local" = "Локальний профіль";
+
+"login.warn.title.ram_unjb" = "Повзунок пам'яті увімкнено";
+"login.warn.message.ram_unjb" = "Майте на увазі, що зміна цього налаштування може призвести до нестабільности гри чи руйнування її взагалі.";
+
+"login.warn.title.a7" = "Це останнє оновлення для цього пристрою.";
+"login.warn.message.a7" = "PojavLauncher 2.2 не підтримуватиме цей пристрій, через обмеження обладнання та програмного забезпечення.";
+
+"login.warn.title.iosver" = "Це останнє оновлення для цієї версії iOS.";
+"login.warn.message.iosver" = "Майбутня версія PojavLauncher не підтримуватиме перешкоди для роботи iOS 12 чи 13, внаслідок невідповідності та обмеження розробки.";
+
+"login.warn.title.2gb" = "Пристрій має обмеження оперативної пам'яті.";
+"login.warn.message.2gb" = "Пристрої, що мають менше ніж 3 ГБ пам'яті, можуть наштовхуватися на обмеження пам'яті. Ми рекомендуємо залишити автоматичний вибір для пристрою.";
+"login.warn.message.demomode" = "Як заміна в офлайн та локальний режимах, демо-режим дозволить вам увійти в обліковий запис Microsoft, який не володіє грою та грати в пробну версію Java Видання, введено в 1.3.1 і більш нових версій. Старіші версії містять повну версію гри, оскільки офіційний лаунчер не веде ці обмеження. Відвідайте наш веб-сайт, щоб дізнатися більше про цей перехід з автономного режиму.";
+
+"login.warn.title.localmode" = "Офлайн режим тепер локальний режим.";
+"login.warn.message.localmode" = "Ви можете продовжити грати у встановлені версії, але більше не можете завантажити Minecraft без оплаченого облікового запису. Підтримка не буде надана з питань локальних облікових записів, а також з іншими засобами отримання Minecraft. Перегляньте \"Часті питання\", щоб дізнатися більше.";
+
+"login.msa.error.xsts.noxboxacc" = "Профіль Xbox Live не зареєстровано для цього облікового запису Microsoft. Будь ласка, переконайтеся, що ви точно робили профіль Xbox.\nКод помилки: 2148916233";
+"login.msa.error.xsts.noxbox" = "Наразі Xbox Live недоступний у вашій країні. \nКод помилки: 2148916235";
+"login.msa.error.xsts.krverify" = "Ваш обліковий запис має бути перевірено батьками, перш ніж ви зможете продовжити.\nКод помилки: 2148916236 або 2148916237.";
+"login.msa.error.xsts.underage" = "Ваш обліковий запис повинен бути пов'язаним з батьківським обліковим записом, перш ніж ви зможете продовжити.\nКод помилки: 2148916238";
+
+"login.msa.progress.acquireAccessToken" = "(1/5) Приймається токен доступу";
+"login.msa.progress.acquireXBLToken" = "(2/5) Приймається токен Xbox Live";
+"login.msa.progress.acquireXSTS" = "Отримання XSTS";
+"login.msa.progress.acquireXboxProfile" = "(3/5) Приймається обліковий запис Xbox Live";
+"login.msa.progress.acquireMCToken" = "(4/5) Приймається токен Minecraft";
+"login.msa.progress.checkMCProfile" = "(5/5) Перевіряється профіль Minecraft";
+
+"News" = "Новини";
+"Settings" = "Налаштування";
+
+"preference.section.general" = "Загальні налаштування";
+"preference.section.video" = "Налаштування графіки";
+"preference.section.footer.video" = "Авто рендер дозволяє Minecraft вирішувати, який рендер використовувати. Зменшення розмірів зменшує навантаження на графічний процесор для підвищення продуктивности.";
+"preference.section.control" = "Налаштування керування";
+"preference.section.debug" = "Налаштування налагодження інтерфейсу";
+"preference.section.footer.debug" = "Окрім налагодження, ці параметри можуть бути корисними для користувацьких елементів керування. Можливо, вам слід перезапустити лаунчер, щоб зміни застосувалися.";
+//"preference.section.footer.control" = "";
+"preference.section.java" = "Оптимізація Java";
+//"preference.section.footer.java" = "";
+
+"preference.title.confirm" = "Ви впевнені?";
+
+"preference.title.game_directory" = "Тека Minecraft";
+"preference.title.confirm.delete_game_directory" = "Екземпляр %@ буде видалено назавжди і його не можливо відновити.";
+"preference.multidir.add_directory" = "Додати теку гри";
+
+"preference.title.check_sha" = "Перевірити файли після завантаження";
+"preference.detail.check_sha" = "Ця опція змушує лаунчер перевіряти хеш, якщо він доступний. Запобігає використанню пошкоджених файлів.";
+"preference.title.cosmetica" = "Плащі Cosmetica";
+"preference.detail.cosmetica" = "Включає плащі від Cosmetica (раніше Arc). Для більш детальної інформації, будь ласка, відвідайте https://cosmetica.cc. Потребує OptiFine";
+"preference.title.debug_logging" = "Запис помилок";
+"preference.detail.debug_logging" = "Записує внутрішні налаштування і дії на latestlog.txt. Це допомагає розробникам швидше знаходити проблеми, але Minecraft може працювати повільніше, оскільки журнали пишуться часто.";
+"preference.title.jitstreamer_server" = "JitStreamer IP сервер";
+"preference.detail.jitstreamer_server" = "Дозволяє вам змінити на користувацькі IP сервера JitStreamer, наприклад як для екземплярів свого хостингу. Цей параметр може бути у спокої, якщо ви використовуєте стандартні сервери JitStreamer.";
+
+"preference.title.appicon" = "Встановити іконку додатка";
+"preference.detail.appicon" = "Дозволяє обрати різні значки основного екрана для PojavLauncher.";
+"preference.title.appicon-default" = "Знайоме світле PojavLauncher";
+"preference.title.appicon-dark" = "Знайоме темне PojavLauncher";
+
+"preference.title.reset_warnings" = "Стерти всі попередження";
+"preference.title.done.reset_warnings" = "Всі попередження стерті.";
+
+"preference.title.reset_settings" = "Скинути налаштування";
+"preference.title.confirm.reset_settings" = "Це прибере всі ваші користувацькі налаштування, включаючи роздільну здатність, розмір кнопок та параметри Java.";
+"preference.title.done.reset_settings" = "Всі стандартні налаштування були відновлені.";
+
+"preference.title.renderer" = "Візуалізатор";
+"preference.title.renderer.gl4es" = "Gl4es 1.1.4 - експортує OpenGL 2.1";
+"preference.title.renderer.zink" = "Zink (Mesa 21.0) - експортує OpenGL 4.1";
+"preference.detail.renderer" = "Зміни двигун візуалізації OpenGL для використання";
+
+"preference.title.resolution" = "Роздільна здатність відео (%)";
+"preference.detail.resolution" = "Дозволяє вам зменшити роздільну здатність гри.";
+"preference.title.disable_gesture" = "Вимкнути жести";
+"preference.title.press_duration" = "Тривалість тривалого натискання (мс)";
+"preference.detail.press_duration" = "Тривалість натискання для знищення блоків і скидання речей.";
+"preference.title.button_scale" = "Шкала екранних кнопок (%)";
+"preference.detail.button_scale" = "Якщо кнопки завеликі, вони зазвичай потрібні для користувачів iPad.";
+"preference.title.mouse_scale" = "Масштабування курсору (%)";
+"preference.detail.mouse_scale" = "Змінює розмір курсора миші";
+"preference.title.mouse_speed" = "Чутливість миші (%)";
+"preference.detail.mouse_speed" = "Змінює чутливість віртуальної миші";
+"preference.title.virtmouse_enable" = "Віртуальна миша";
+"preference.detail.virtmouse_enable" = "Увімкніть цю опцію, щоб починати з віртуальною мишею";
+"preference.title.slideable_hotbar" = "Панель швидкого доступу";
+"preference.detail.slideable_hotbar" = "Зробити повзунком швидкого доступу як колесо миші";
+"preference.title.java_home" = "Використовувати Java 17 для Minecraft < 1.17";
+"preference.detail.java_home" = "Java 8 використовується за замовчуванням для цих версій. Увімкніть цю опцію, щоб примусово використовувати Java 17, проте сумісність з модифікаціями не гарантується.";
+"preference.title.java_args" = "Аргументи запуску JVM";
+"preference.detail.java_args" = "Будьте обережні, це може призвести до збоїв у грі, якщо це замінити без знань.";
+"preference.placeholder.java_args" = "Вкажіть аргументи...";
+"preference.title.auto_ram" = "Автоматичне виділення ОЗП";
+"preference.detail.auto_ram" = "Вмикає автоматичне регулювання ОЗП";
+"preference.warn.auto_ram" = "Вимкнення цієї опції на незламаному Jailbreak пристрої може створити нестабільність, якщо це зміниться. Будьте обережні.";
+"preference.title.allocated_memory" = "Виділення пам'яті (МБ)";
+"preference.detail.allocated_memory" = "Визначає, скільки пам'яті буде виділено для Minecraft";
+"preference.warn.allocated_memory" = "Через обмеження у самій операційній системі, цей параметр може викликати нестабільність в цих і вищих значеннях. Будьте обережні.";
+"preference.title.custom_env" = "Змінні середовища";
+"preference.detail.custom_env" = "Ця опція у процесі розробки.";
+
+"preference.title.debug_skip_wait_jit" = "Пропустити «Очікування JIT»";
+"preference.detail.debug_skip_wait_jit" = "Це не дозволяє запускати без JIT, натомість це пропускає перевірку налагоджувача, оскільки перевірка не вдається під час певних джейлбрейків.";
+"preference.title.debug_ipad_ui" = "Розблокувати інтерфейс iPadOS";
+"preference.detail.debug_ipad_ui" = "Розблокуйте ексклюзивний інтерфейс iPad (тривоги, клавіатури тощо.) якщо ввімкнено або якщо інтерфейс iPhone вимкнено.";
+"preference.title.debug_hide_home_indicator" = "Сховати кнопку \"Додому\"";
+"preference.detail.debug_hide_home_indicator" = "Це вимкне блокування кнопки \"Додому\". Ви повинні використовувати Guided Access, щоб ховати та блокувати кнопку \"Додому\" за один раз.";
+"preference.title.debug_show_layout_bounds" = "Показувати межі об'єктів";
+"preference.detail.debug_show_layout_bounds" = "Показувати межі обрізування, поля і т. д.";
+"preference.title.debug_show_layout_overlap" = "Показати накладання макета";
+"preference.detail.debug_show_layout_overlap" = "Накладання кожного перегляду з прозорим кольором, щоб розкрити огляди, що перекриваються.";
