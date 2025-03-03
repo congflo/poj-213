@@ -65,7 +65,7 @@ jobs:
           name: jre21-ios-aarch64
 
       - name: Install include tools
-        run: brew install make cmake temurin@8 ldid fakeroot dpkg
+        run: brew install make cmake temurin@8 ldid fakeroot dpkg dpkg-deb
 
       - name: Build packages
         env:
