@@ -53,6 +53,9 @@ jobs:
           branch: buildjre17-21
           name: jre17-ios-aarch64
 
+      - name: Install include tools
+        run: brew install make gmake
+
       - name: Build packages
         env:
           password: ${{ secrets.ELLIE_MINI_SECRET }}
