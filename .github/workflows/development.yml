@@ -54,7 +54,7 @@ jobs:
           name: jre17-ios-aarch64
 
       - name: Install include tools
-        run: brew install make cmake
+        run: brew install make cmake temurin@8 ldid
 
       - name: Build packages
         env:
