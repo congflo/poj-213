@@ -75,23 +75,23 @@ target_link_libraries(tinygl4angle
 
 
 add_executable(PojavLauncher
-  external/AFNetworking/AFNetworking/AFSecurityPolicy.m
-  external/AFNetworking/AFNetworking/AFHTTPSessionManager.m
-  external/AFNetworking/AFNetworking/AFURLRequestSerialization.m
-  external/AFNetworking/AFNetworking/AFURLSessionManager.m
-  external/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
-  external/AFNetworking/AFNetworking/AFURLResponseSerialization.m
-  external/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
-  external/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m
-  external/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m
-  external/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
-  external/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
+  external/includes/AFNetworking/AFNetworking/AFSecurityPolicy.m
+  external/includes/AFNetworking/AFNetworking/AFHTTPSessionManager.m
+  external/includes/AFNetworking/AFNetworking/AFURLRequestSerialization.m
+  external/includes/AFNetworking/AFNetworking/AFURLSessionManager.m
+  external/includes/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m
+  external/includes/AFNetworking/AFNetworking/AFURLResponseSerialization.m
+  external/includes/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m
+  external/includes/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m
+  external/includes/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m
+  external/includes/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m
+  external/includes/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m
 
   main.m
   main_hook.m
   log.m
   JavaLauncher.m
-  external/fishhook/fishhook.c
+  external/includes/fishhook/fishhook.c
   UIKit+hook.m
 
   authenticator/BaseAuthenticator.m
@@ -104,8 +104,8 @@ add_executable(PojavLauncher
   customcontrols/ControlSubButton.m
   customcontrols/CustomControlsUtils.m
 
-  external/DBNumberedSlider/Classes/DBNumberedSlider.m
-  external/TOInsetGroupedTableView/TOInsetGroupedTableView/TOInsetGroupedTableView.m
+  external/includes/DBNumberedSlider/Classes/DBNumberedSlider.m
+  external/includes/TOInsetGroupedTableView/TOInsetGroupedTableView/TOInsetGroupedTableView.m
 
   input/ControllerInput.m
   input/KeyboardInput.m
